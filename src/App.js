@@ -3,6 +3,7 @@ import './App.css';
 
 import React, {useState} from 'react'
 import Navbar from './components/Navbar';
+import { Switch } from 'react-router-dom';
 import NewsBody from './components/NewsBody';
 import{BrowserRouter as Router,Switch,Route} from "react-router-dom";
 // import LoadingBar from 'react-top-loading-bar';
